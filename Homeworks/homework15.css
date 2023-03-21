@@ -1,0 +1,103 @@
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+}
+header a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+header a:hover{
+    box-shadow: 0 0 60px white;
+}
+#h3{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#inputsearch{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#inputbutton{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: white;
+    border-bottom: 5px solid black;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(144,12,161,1) 50%, rgba(2,0,36,1) 100%);
+}
+.div1{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    box-shadow: 0 0 15px black;
+}
+.div2{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    box-shadow: 0 0 15px black;
+}
+.div3{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    box-shadow: 0 0 15px black;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 75px;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 75px;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 75px;
+}
+.h31{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.h32{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.h33{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+body{
+    margin: 0;
+}

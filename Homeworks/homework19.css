@@ -1,0 +1,59 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h2{
+    color: rgb(0, 85, 176);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+main{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,125,255,1) 30%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+}
+.divepisodes{
+    background-color: gray;
+    width:  300px;
+    height: 150px;
+    border: 3px solid white;
+    margin: 50px;
+}
+.divseasons{
+    width:  300px;
+    height: 250px;
+    background-color: gray;
+    border: 2px solid white;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0;
+}
