@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="urok16.css">
+</head>
+<body>
+    <header onclick="change()" id="header">
+       <div>
+        <h2 class="h2" onclick="textchange()">Home</h2>
+       </div>
+        
+       <div>
+        <h2>Contacts</h2>
+       </div>
+
+       <div>
+        <h2>Service</h2>
+       </div>
+
+       <div>
+        <h2>About we</h2>
+       </div>
+    </header>
+
+
+
+
+<script>
+    function change(){
+        document.getElementById("header").style.backgroundColor="green"
+    }
+    function textchange(){
+        document.getElementsByClassName("h2").style.color="red"
+    }
+    
+</script>
+
+
+</body>
+</html>

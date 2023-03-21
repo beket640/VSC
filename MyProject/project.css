@@ -1,0 +1,45 @@
+header{
+    position: fixed;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.divnav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.6s;
+}
+.divnav a:hover{
+    color: chocolate;
+    box-shadow: 0 0 40px chocolate;
+}
+.h2logo{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 40px green;
+}
+#search{
+    font-size: 20px;
+}
+#searchbutton{
+    font-size: 20px;
+}
+#footer{
+    background-color: gray;
+    
+}
+
+
+
+
+
+
+
+body{
+    margin: 0;
+}
