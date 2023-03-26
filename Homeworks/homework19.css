@@ -40,9 +40,28 @@ section{
     border: 2px solid white;
     margin: 30px;
 }
-
-
-
+main a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+h1{
+    font-size: 30px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divzyxwv{
+    height: 400px;
+    width: 800px;
+    background-color: gray;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+#commandsection{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
