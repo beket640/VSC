@@ -18,6 +18,7 @@ footer{
 footer #divfoot{
     position: absolute;
     left: 150px;
+    
 }
 footer #divfoot h3{
     border-bottom: 2px solid black;
