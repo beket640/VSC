@@ -3,11 +3,30 @@
     align-items: center;
     
 }
-
-
-
-
-
+footer div form{
+    background: #007bff;
+    width: 600px;
+    border-radius: 30px;
+    padding: 10px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+footer{
+    background: rgb(235, 175, 46);
+}
+footer #divfoot{
+    position: absolute;
+    left: 150px;
+}
+footer #divfoot h3{
+    border-bottom: 2px solid black;
+    transition: 0.5s;
+}
+footer #divfoot h3:hover{
+    color: green;
+    border-bottom: 2px solid green;
+}
 
 
 body{
